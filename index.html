@@ -10,7 +10,7 @@
             <div class="hour">
                 <div class="hr" id="hr"></div>
             </div>
-            <div class="min">
+            <div class="mn">
                 <div class="mn" id="mn"></div>
         </div>
         <div class="sec">
@@ -31,9 +31,9 @@
         Let ss = day.getSeconds() * deg;;
 
         hr.style.transform = `rotateZ(${hh)+(mm/12)}deg)`;
-        mn.style.transform = `rotateZ(${(mm)}deg)`;
+        mm.style.transform = `rotateZ(${(mm)}deg)`;
         sc.style.transform = `rotateZ(${(ss)}deg)`;
-        
+
         })      
 
         
